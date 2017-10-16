@@ -5,6 +5,10 @@ use Slim\Http\Response;
 
 // Routes
 
+$app->post('/check-in', function (Request $req, Response $res, array $args){
+
+});
+
 $app->get('/[{name}]', function (Request $request, Response $response, array $args) {
     // Sample log message
     $this->logger->info("Slim-Skeleton '/' route");
