@@ -18,10 +18,10 @@ return [
 
         // mySQL settings
         'db' => [
-            "host" => "localhost",
-            "dbname" => "YOUR_DB_NAME",
-            "user" => "YOUR_USER_NAME",
-            "pass" => "YOUR_DB_PASSWORD"
+            "host" => getenv("host"),
+            "dbname" => getenv("dbname"),
+            "user" => getenv("user"),
+            "pass" => getenv("pass")
         ]
     ],
 ];

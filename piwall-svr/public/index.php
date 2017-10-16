@@ -13,6 +13,10 @@ require __DIR__ . '/../vendor/autoload.php';
 
 session_start();
 
+// Prepare for ENV
+$dotenv = new Dotenv\Dotenv(__DIR__ . '/../src');
+$dotenv->load();
+
 // Instantiate the app
 $settings = require __DIR__ . '/../src/settings.php';
 $app = new \Slim\App($settings);
