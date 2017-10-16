@@ -5,7 +5,8 @@ Install, setup, and control a piwall implementation. One installation package fo
 ## Requirements:
 
 * PHP
-* SQLite
+* mySQL
+* avahi
 * 2 or more Raspberry Pi systems with at least one display
 
 ## Installation:
@@ -22,7 +23,10 @@ Install, setup, and control a piwall implementation. One installation package fo
 * Installer
     * Check for: 
         * mySQL
+            * set db user
+            * set config
         * PHP v??
+        * Avahi
     * Init Keys *(should this happen during client check-in?)*
 * Listen for clients
 * Log client serial and access keys
