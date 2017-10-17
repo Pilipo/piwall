@@ -11,6 +11,8 @@ Install, setup, and control a piwall implementation. One installation package fo
 
 ## Installation:
 
+* create keys for server (location: piwall-svr/private)
+
 ## Use:
 
 ### **Server**
