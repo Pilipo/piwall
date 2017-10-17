@@ -21,7 +21,7 @@ return [
             "host" => getenv("host"),
             "dbname" => getenv("dbname"),
             "user" => getenv("user"),
-            "pass" => getenv("pass")
-        ]
+            "pass" => getenv("pass"),
+        ],
     ],
 ];

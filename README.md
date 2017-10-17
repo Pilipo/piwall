@@ -26,7 +26,8 @@ Install, setup, and control a piwall implementation. One installation package fo
             * set db user
             * set config
         * PHP v??
-        * Avahi
+        * Avahi-daemon
+        * jq
     * Init Keys *(should this happen during client check-in?)*
 * Listen for clients
 * Log client serial and access keys
